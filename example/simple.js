@@ -1,26 +1,26 @@
 var git = require('../')
 
-git.short(function (str) {
+git.short(function (error, str) {
   console.log('short', str)
   // => aefdd94
 })
 
-git.long(function (str) {
+git.long(function (error, str) {
   console.log('long', str)
   // => aefdd946ea65c88f8aa003e46474d57ed5b291d1
 })
 
-git.branch(function (str) {
+git.branch(function (error, str) {
   console.log('branch', str)
   // => master
 })
 
-git.tag(function (str) {
+git.tag(function (error, str) {
   console.log('tag', str)
   // => 0.1.0
 })
 
-git.log(function (array) {
+git.log(function (error, array) {
   console.log('log', array)
   // [ [ 'aefdd946ea65c88f8aa003e46474d57ed5b291d1',
   //     'add description',

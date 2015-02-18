@@ -1,6 +1,6 @@
 {
-  "name" : "git-rev",
-  "version" : "0.2.1",
+  "name" : "git-rev-3",
+  "version" : "0.3.0",
   "description" : "get the current git commit hash, tag or branch in node",
   "main" : "index.js",
   "bin" : {},
@@ -12,14 +12,17 @@
   "scripts" : {},
   "repository" : {
     "type" : "git",
-    "url" : "git://github.com/tblobaum/git-rev.git"
+    "url" : "git://github.com/femto113/git-rev-3.git"
   },
-  "homepage" : "https://github.com/tblobaum/git-rev",
+  "homepage" : "https://github.com/femto113/git-rev-3",
   "keywords" : [ ],
-  "author" : {
-    "name" : "Thomas Blobaum",
-    "email" : "tblobaum@gmail.com",
-    "url" : "https://github.com/tblobaum/"
-  },
+  "author": "Ken Woodruff <ken.woodruff@gmail.com>",
+  "contributors": [
+    {
+      "name" : "Thomas Blobaum",
+      "email" : "tblobaum@gmail.com",
+      "url" : "https://github.com/tblobaum/"
+    }
+  ]
   "license" : "MIT"
 }
